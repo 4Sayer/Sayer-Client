@@ -1,0 +1,20 @@
+/leave
+/spawn
+/hub
+/bobby upgrade
+/spawn
+/ps home
+/home
+/home madera
+/ps home art1c
+/kit god
+/kit
+/kit xSayer
+/Kit
+/cf
+/pv 1
+/hub
+/spawn
+/hub
+/ps home
+/tpa friju
