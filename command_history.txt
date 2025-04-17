@@ -33,3 +33,4 @@
 /give xSayer arrow 650
 /gamemode creative
 /give xSayer bow 1
+/spawn

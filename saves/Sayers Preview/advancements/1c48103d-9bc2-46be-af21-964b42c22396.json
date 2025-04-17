@@ -47,27 +47,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "has_slime_ball": "2025-04-17 01:36:22 -0700"
+      "golden_apple": "2025-04-17 01:33:42 -0700"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:adventure/shoot_arrow": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "shot_arrow": "2025-04-17 01:34:58 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-04-17 01:34:55 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2025-04-17 01:34:49 -0700"
+      "consumed_item": "2025-04-17 01:33:42 -0700"
     },
     "done": true
   },
@@ -84,27 +72,39 @@
     },
     "done": false
   },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2025-04-17 01:36:22 -0700"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:slime": "2025-04-17 01:34:01 -0700"
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "golden_apple": "2025-04-17 01:33:42 -0700"
+      "has_bow": "2025-04-17 01:34:49 -0700"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:husbandry/root": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "consumed_item": "2025-04-17 01:33:42 -0700"
+      "has_lots_of_items": "2025-04-17 01:34:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-04-17 01:34:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-04-17 01:36:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-04-17 01:36:22 -0700"
     },
     "done": true
   },
