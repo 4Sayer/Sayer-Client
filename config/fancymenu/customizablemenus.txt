@@ -27,3 +27,6 @@ net.minecraft.class_3928 {
 net.minecraft.class_424 {
 }
 
+net.minecraft.class_8219 {
+}
+

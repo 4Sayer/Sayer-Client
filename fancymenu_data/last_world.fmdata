@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = play.regorland.net:25565
+  is_server = false
+  world = C:/Users/Sayer/AppData/Roaming/.minecraft/versions/fabric-loader-0.16.13-1.21.4/saves/Sayers Preview
 }
 
