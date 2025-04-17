@@ -1,6 +1,6 @@
 {
   "gamma": {
-    "value": 1.0,
+    "value": 0.5,
     "defaultGamma": 100,
     "toggledGamma": 1500,
     "updateToggle": false,
@@ -14,10 +14,10 @@
     "dynamic": {
       "enabled": true,
       "paused": false,
-      "minGamma": 100,
-      "maxGamma": 1000,
-      "transitionSpeed": 200,
-      "averagingLightRange": 8,
+      "minGamma": 50,
+      "maxGamma": 300,
+      "transitionSpeed": 50,
+      "averagingLightRange": 2,
       "skyBrightnessOverride": 0
     },
     "dimensionPreference": {
@@ -39,8 +39,8 @@
     }
   },
   "nightVision": {
-    "enabled": false,
-    "value": 100.0,
+    "enabled": true,
+    "value": 12.888888888888891,
     "toggledNightVision": 100,
     "updateToggle": false,
     "nightVisionStep": 2,
@@ -54,7 +54,7 @@
       "enabled": false,
       "paused": false,
       "minNightVision": 0,
-      "maxNightVision": 100,
+      "maxNightVision": 200,
       "transitionSpeed": 15,
       "averagingLightRange": 8,
       "skyBrightnessOverride": 0

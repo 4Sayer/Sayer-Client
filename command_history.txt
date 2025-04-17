@@ -26,3 +26,10 @@
 /premium
 /ping
 /kit
+/clear
+/gamemode survival
+/give xSayer minecraft:golden_apple 32
+/give xSayer bow
+/give xSayer arrow 650
+/gamemode creative
+/give xSayer bow 1

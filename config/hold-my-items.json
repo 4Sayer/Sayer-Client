@@ -5,5 +5,5 @@
   "viewmodelXOffset": -0.3,
   "viewmodelYOffset": -0.25,
   "viewmodelZOffset": -0.3,
-  "mb3DCompat": true
+  "mb3DCompat": false
 }
