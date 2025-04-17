@@ -1,6 +1,6 @@
-[18:55:01] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.12
-[18:55:01] [ForkJoinPool-1-worker-1/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:55:01] [main/INFO]: Loading 153 mods:
+[20:33:24] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.13
+[20:33:24] [ForkJoinPool-1-worker-3/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:33:24] [main/INFO]: Loading 153 mods:
 	- alinlib 2.1.0-beta.2+mc1.21.4
 	   \-- meteordevelopment_starscript 0.3.4
 	- alinperspective 1.0.0-alpha.4
@@ -93,7 +93,7 @@
 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
 	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
-	- fabricloader 0.16.12
+	- fabricloader 0.16.13
 	   \-- mixinextras 0.4.1
 	- fadeless 2.0.3
 	   \-- midnightlib 1.6.10
@@ -155,220 +155,215 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[18:55:02] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Sayer/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[18:55:02] [main/INFO]: Compatibility level set to JAVA_21
-[18:55:02] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
-[18:55:02] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[18:55:02] [main/INFO]: Loaded configuration file for Lithium: 158 options available, 0 override(s) found.
-[18:55:02] [main/INFO]: Loaded configuration file for ModernFix 5.20.3+mc1.21.4: 54 options available, 0 override(s) found
-[18:55:02] [main/INFO]: Applying Nashorn fix
-[18:55:02] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
-[18:55:02] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
-[18:55:02] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
-[18:55:03] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer)
-[18:55:03] [main/WARN]: Error loading class: xaero/common/events/ModClientEvents (java.lang.ClassNotFoundException: xaero/common/events/ModClientEvents)
-[18:55:03] [main/WARN]: @Mixin target xaero.common.events.ModClientEvents was not found exordium.mixins.json:support/XaerosMinimapMixin from mod exordium
-[18:55:03] [main/WARN]: Error loading class: dev/tr7zw/paperdoll/PaperDollRenderer (java.lang.ClassNotFoundException: dev/tr7zw/paperdoll/PaperDollRenderer)
-[18:55:03] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[18:55:03] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[18:55:03] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[18:55:04] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[18:55:04] [main/INFO]: Searching for graphics cards...
-[18:55:04] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon(TM) Graphics', adapterType=0x0000032B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\u0407052.inf_amd64_84d15514ad17ffa0\B406619\atig6pxx.dll', openglIcdVersion=31.0.21921.1000}
-[18:55:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[18:55:06] [Datafixer Bootstrap/INFO]: 243 Datafixer optimizations took 479 milliseconds
-[18:55:08] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[18:55:11] [main/INFO]: Vanilla bootstrap took 4979 milliseconds
-[18:55:11] [main/WARN]: Method overwrite conflict for getTickCount in exordium.mixins.json:GuiMixin from mod exordium, previously written by dev.tr7zw.exordium.mixin.GuiHealthMixin. Skipping method.
-[18:55:12] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:55:12] [Render thread/INFO]: Setting user: xSayer
-[18:55:12] [Render thread/INFO]: ChatAnimation initialized!
-[18:55:12] [Render thread/INFO]: [STDOUT]: EmojiType initialized!
-[18:55:12] [Render thread/INFO]: Loading Fadeless Fabric
-[18:55:12] [Render thread/INFO]: [FANCYMENU] Loading v3.5.0 in client-side mode on FABRIC!
-[18:55:12] [Render thread/INFO]: ping & connect fast!
-[18:55:12] [Render thread/INFO]: Hello Fabric world!
-[18:55:12] [Render thread/INFO]: [KONKRETE] Loading v1.9.9 in client-side mode on FABRIC!
-[18:55:12] [Render thread/INFO]: ---------------------------
-[18:55:12] [Render thread/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[18:55:12] [Render thread/INFO]:  
-[18:55:12] [Render thread/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
-[18:55:12] [Render thread/INFO]: Open Imaging is licensed under Apache-2.0.
-[18:55:12] [Render thread/INFO]:  
-[18:55:12] [Render thread/INFO]: JsonPath Copyright © 2017 Jayway.
-[18:55:12] [Render thread/INFO]: JsonPath is licensed under Apache-2.0.
-[18:55:12] [Render thread/INFO]:  
-[18:55:12] [Render thread/INFO]: Json-smart Copyright © netplex.
-[18:55:12] [Render thread/INFO]: Json-smart is licensed under Apache-2.0.
-[18:55:12] [Render thread/INFO]:  
-[18:55:12] [Render thread/INFO]: Exp4j Copyright © Frank Asseg.
-[18:55:12] [Render thread/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[18:55:12] [Render thread/INFO]: ---------------------------
-[18:55:12] [Render thread/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
-[18:55:12] [Render thread/INFO]: [MELODY] Loading v1.0.10 on FABRIC...
-[18:55:13] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
-[18:55:13] [Render thread/INFO]: [STDOUT]: TxniLib onInitialize!!
-[18:55:13] [Render thread/INFO]: [AlinaLib] [Style] Registration of alinlib.style.flat by id flat
-[18:55:13] [Render thread/INFO]: [AlinaLib] [Style] Registration of alinlib.style.modern by id modern
-[18:55:13] [Render thread/INFO]: [AlinaLib] [Style] Registration of alinlib.style.windows by id windows
-[18:55:13] [Render thread/INFO]: [AlinaLib] [Style] Registration of alinlib.style.twm by id twm
-[18:55:13] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
-[18:55:13] [Render thread/INFO]: [BetterF3] Loading...
-[18:55:13] [Render thread/INFO]: [BetterF3] All done!
-[18:55:13] [Render thread/INFO]: Trying to read config file...
-[18:55:13] [Render thread/INFO]: A config file was found, loading it..
-[18:55:13] [Render thread/INFO]: Successfully loaded config file.
-[18:55:13] [Render thread/INFO]: Dynamic FPS 3.9.3 active on Fabric!
-[18:55:13] [Render thread/INFO]: Loading Entity Model Features, PI = 3.1415927 and you can't convince me otherwise.
-[18:55:14] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
-[18:55:14] [Render thread/INFO]: Loading Entity Texture Features, :)
-[18:55:14] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[18:55:14] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
-[18:55:14] [Render thread/INFO]: [LambDynLights] Configuration loaded.
-[18:55:14] [Render thread/INFO]: Loaded config modelfix-client.json
-[18:55:14] [Render thread/INFO]: Checking mod updates...
-[18:55:14] [Render thread/INFO]: Perspektive initialized
-[18:55:14] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\Sayer\AppData\Roaming\ModrinthApp\profiles\YVL 2\config\yacl.json5'
-[18:55:14] [ModMenu/Update Checker/Fabric Loader/INFO]: Update available for 'fabricloader@0.16.12'
-[18:55:15] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
-[18:55:15] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
-[18:55:15] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
-[18:55:15] [Render thread/INFO]: OpenGL Renderer: AMD Radeon(TM) Graphics
-[18:55:15] [Render thread/INFO]: OpenGL Version: 3.2.0 Core Profile Context 24.9.1.240813
-[18:55:15] [Render thread/INFO]: Initializing ImmediatelyFast 1.8.0+1.21.4 on AMD Radeon(TM) Graphics (ATI Technologies Inc.) with OpenGL 3.2.0 Core Profile Context 24.9.1.240813
-[18:55:15] [Render thread/INFO]: Found Iris/Oculus 1.8.8+mc1.21.4. Enabling compatibility.
-[18:55:16] [Render thread/INFO]: Debug functionality is disabled.
-[18:55:16] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
-[18:55:16] [Render thread/INFO]: Profile: LOW (+0 options changed by user)
-[18:55:16] [Render thread/INFO]: Using shaderpack: miniature-shader-2.14.5.zip
-[18:55:17] [Render thread/INFO]: Hardware information:
-[18:55:17] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 5600G with Radeon Graphics 
-[18:55:17] [Render thread/INFO]: GPU: AMD Radeon(TM) Graphics (Supports OpenGL 3.2.0 Core Profile Context 24.9.1.240813)
-[18:55:17] [Render thread/INFO]: OS: Windows 10 (10.0)
-[18:55:17] [Render thread/INFO]: [FANCYMENU] Registering resource reload listener..
-[18:55:17] [Render thread/INFO]: Invalidating pack caches
-[18:55:17] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, alinlib, alinperspective, appleskin, armor_hud, balm, betterf3, bobby, capes, chat_heads, chatanimation, cloth-config, conditional-mixin, cullleaves, dynamic_fps, emojitype, enhancedblockentities, entity_model_features, entity_texture_features, entityculling, exordium, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fadeless, fancymenu, fastipping, forgeconfigapiport, hold-my-items, immediatelyfast, iris, konkrete, lambdynlights, lambdynlights_api, languagereload, lithium, malilib, midnightlib, modernfix, modmenu, moreculling, netherportalfix, nochatreports, notenoughanimations, perspektive, placeholder-api, pride, reeses-sodium-options, scalablelux, shulkerboxtooltip, skinlayers3d, sodium, sodium-extra, spruceui, txnilib, vmp, waveycapes, yet_another_config_lib_v3, file/FreshAnimations_v1.9.3.zip, file/SodiumTranslations.zip, cullleaves:smartleaves, file/! §5§lPurple+_3D_Crystal.zip
-[18:55:17] [Worker-ResourceReload-6/INFO]: Found unifont_jp_patch-16.0.01.hex, loading
-[18:55:17] [Worker-ResourceReload-8/INFO]: Found unifont_all_no_pua-16.0.01.hex, loading
-[18:55:17] [Render thread/INFO]: [FANCYMENU] Initializing screen customization engine! Addons should NOT REGISTER TO REGISTRIES anymore now!
-[18:55:18] [Worker-ResourceReload-5/WARN]: Method overwrite conflict for getCullingBox in sodium-common.mixins.json:core.render.world.EntityRendererAccessor from mod sodium, previously written by dev.tr7zw.entityculling.mixin.EntityRendererMixin. Skipping method.
-[18:55:18] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_trialAvailable_FancyMenu()Z should be static as its target is
-[18:55:18] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_hasUnreadNews_FancyMenu()Z should be static as its target is
-[18:55:18] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_hasUnseenNotifications()Z should be static as its target is
-[18:55:18] [Render thread/INFO]: Creating new TamagotchiEasterEgg with screen size: 0x0
-[18:55:18] [Render thread/INFO]: Initialized 2 GUI buttons
-[18:55:18] [Render thread/INFO]: Delaying buddy state loading until screen size is properly set
-[18:55:18] [Render thread/INFO]: [FANCYMENU] Starting late client initialization phase..
-[18:55:18] [Worker-ResourceReload-2/WARN]: Missing block model: 'minecraft:builtin/entity'
-[18:55:18] [Render thread/INFO]: [KONKRETE] Client-side modules initialized and ready to use!
-[18:55:18] [Render thread/INFO]: Cached all modded block culling states
-[18:55:19] [Render thread/INFO]: [AlinaLib] Client started. MC Version: 1.21.4
-[18:55:19] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: generic_dirt_message_screen
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing textures in model minecraft:hopper#enabled=true,facing=south:
+[20:33:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Sayer/AppData/Roaming/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[20:33:25] [main/INFO]: Compatibility level set to JAVA_21
+[20:33:25] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[20:33:25] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[20:33:25] [main/INFO]: Loaded configuration file for Lithium: 158 options available, 0 override(s) found.
+[20:33:25] [main/INFO]: Loaded configuration file for ModernFix 5.20.3+mc1.21.4: 54 options available, 0 override(s) found
+[20:33:25] [main/INFO]: Applying Nashorn fix
+[20:33:25] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[20:33:25] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[20:33:25] [main/INFO]: Successfully started async appender with [Tracy, SysOut, File]
+[20:33:25] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer)
+[20:33:25] [main/WARN]: Error loading class: xaero/common/events/ModClientEvents (java.lang.ClassNotFoundException: xaero/common/events/ModClientEvents)
+[20:33:25] [main/WARN]: @Mixin target xaero.common.events.ModClientEvents was not found exordium.mixins.json:support/XaerosMinimapMixin from mod exordium
+[20:33:25] [main/WARN]: Error loading class: dev/tr7zw/paperdoll/PaperDollRenderer (java.lang.ClassNotFoundException: dev/tr7zw/paperdoll/PaperDollRenderer)
+[20:33:26] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:33:26] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:33:26] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:33:26] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[20:33:26] [main/INFO]: Searching for graphics cards...
+[20:33:26] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon(TM) Graphics', adapterType=0x0000032B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\u0407052.inf_amd64_84d15514ad17ffa0\B406619\atig6pxx.dll', openglIcdVersion=31.0.21921.1000}
+[20:33:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:33:28] [Datafixer Bootstrap/INFO]: 243 Datafixer optimizations took 395 milliseconds
+[20:33:30] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[20:33:33] [main/INFO]: Vanilla bootstrap took 4272 milliseconds
+[20:33:33] [main/WARN]: Method overwrite conflict for getTickCount in exordium.mixins.json:GuiMixin from mod exordium, previously written by dev.tr7zw.exordium.mixin.GuiHealthMixin. Skipping method.
+[20:33:34] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:33:34] [Render thread/INFO]: Setting user: xSayer
+[20:33:34] [Render thread/INFO]: ChatAnimation initialized!
+[20:33:34] [Render thread/INFO]: [STDOUT]: EmojiType initialized!
+[20:33:34] [Render thread/INFO]: Loading Fadeless Fabric
+[20:33:34] [Render thread/INFO]: [FANCYMENU] Loading v3.5.0 in client-side mode on FABRIC!
+[20:33:34] [Render thread/INFO]: ping & connect fast!
+[20:33:34] [Render thread/INFO]: Hello Fabric world!
+[20:33:34] [Render thread/INFO]: [KONKRETE] Loading v1.9.9 in client-side mode on FABRIC!
+[20:33:34] [Render thread/INFO]: ---------------------------
+[20:33:34] [Render thread/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[20:33:34] [Render thread/INFO]:  
+[20:33:34] [Render thread/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[20:33:34] [Render thread/INFO]: Open Imaging is licensed under Apache-2.0.
+[20:33:34] [Render thread/INFO]:  
+[20:33:34] [Render thread/INFO]: JsonPath Copyright © 2017 Jayway.
+[20:33:34] [Render thread/INFO]: JsonPath is licensed under Apache-2.0.
+[20:33:34] [Render thread/INFO]:  
+[20:33:34] [Render thread/INFO]: Json-smart Copyright © netplex.
+[20:33:34] [Render thread/INFO]: Json-smart is licensed under Apache-2.0.
+[20:33:34] [Render thread/INFO]:  
+[20:33:34] [Render thread/INFO]: Exp4j Copyright © Frank Asseg.
+[20:33:34] [Render thread/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[20:33:34] [Render thread/INFO]: ---------------------------
+[20:33:34] [Render thread/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[20:33:34] [Render thread/INFO]: [MELODY] Loading v1.0.10 on FABRIC...
+[20:33:34] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[20:33:34] [Render thread/INFO]: [STDOUT]: TxniLib onInitialize!!
+[20:33:34] [Render thread/INFO]: [AlinaLib] [Style] Registration of alinlib.style.flat by id flat
+[20:33:34] [Render thread/INFO]: [AlinaLib] [Style] Registration of alinlib.style.modern by id modern
+[20:33:34] [Render thread/INFO]: [AlinaLib] [Style] Registration of alinlib.style.windows by id windows
+[20:33:34] [Render thread/INFO]: [AlinaLib] [Style] Registration of alinlib.style.twm by id twm
+[20:33:34] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[20:33:34] [Render thread/INFO]: [BetterF3] Loading...
+[20:33:34] [Render thread/INFO]: [BetterF3] All done!
+[20:33:35] [Render thread/INFO]: Trying to read config file...
+[20:33:35] [Render thread/INFO]: A config file was found, loading it..
+[20:33:35] [Render thread/INFO]: Successfully loaded config file.
+[20:33:35] [Render thread/INFO]: Dynamic FPS 3.9.3 active on Fabric!
+[20:33:35] [Render thread/INFO]: Loading Entity Model Features, Trabee got the flu!
+[20:33:35] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
+[20:33:35] [Render thread/INFO]: Loading Entity Texture Features, 0% Opti, 100% Fine.
+[20:33:35] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[20:33:35] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[20:33:35] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[20:33:35] [Render thread/INFO]: Loaded config modelfix-client.json
+[20:33:36] [Render thread/INFO]: Checking mod updates...
+[20:33:36] [Render thread/INFO]: Perspektive initialized
+[20:33:36] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\Sayer\AppData\Roaming\.minecraft\versions\fabric-loader-0.16.13-1.21.4\config\yacl.json5'
+[20:33:36] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[20:33:37] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
+[20:33:37] [Render thread/INFO]: OpenGL Renderer: AMD Radeon(TM) Graphics
+[20:33:37] [Render thread/INFO]: OpenGL Version: 3.2.0 Core Profile Context 24.9.1.240813
+[20:33:37] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[20:33:37] [Render thread/INFO]: Initializing ImmediatelyFast 1.8.0+1.21.4 on AMD Radeon(TM) Graphics (ATI Technologies Inc.) with OpenGL 3.2.0 Core Profile Context 24.9.1.240813
+[20:33:37] [Render thread/INFO]: Found Iris/Oculus 1.8.8+mc1.21.4. Enabling compatibility.
+[20:33:37] [Render thread/INFO]: Debug functionality is disabled.
+[20:33:37] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[20:33:37] [Render thread/INFO]: Profile: LOW (+0 options changed by user)
+[20:33:37] [Render thread/INFO]: Using shaderpack: miniature-shader-2.14.5.zip
+[20:33:38] [Render thread/INFO]: Hardware information:
+[20:33:38] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 5600G with Radeon Graphics 
+[20:33:38] [Render thread/INFO]: GPU: AMD Radeon(TM) Graphics (Supports OpenGL 3.2.0 Core Profile Context 24.9.1.240813)
+[20:33:38] [Render thread/INFO]: OS: Windows 10 (10.0)
+[20:33:38] [Render thread/INFO]: [FANCYMENU] Registering resource reload listener..
+[20:33:39] [Render thread/INFO]: Invalidating pack caches
+[20:33:39] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, alinlib, alinperspective, appleskin, armor_hud, balm, betterf3, bobby, capes, chat_heads, chatanimation, cloth-config, conditional-mixin, cullleaves, dynamic_fps, emojitype, enhancedblockentities, entity_model_features, entity_texture_features, entityculling, exordium, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fadeless, fancymenu, fastipping, forgeconfigapiport, hold-my-items, immediatelyfast, iris, konkrete, lambdynlights, lambdynlights_api, languagereload, lithium, malilib, midnightlib, modernfix, modmenu, moreculling, netherportalfix, nochatreports, notenoughanimations, perspektive, placeholder-api, pride, reeses-sodium-options, scalablelux, shulkerboxtooltip, skinlayers3d, sodium, sodium-extra, spruceui, txnilib, vmp, waveycapes, yet_another_config_lib_v3, file/FreshAnimations_v1.9.3.zip, file/SodiumTranslations.zip, cullleaves:smartleaves, file/! §5§lPurple+_3D_Crystal.zip
+[20:33:39] [Worker-ResourceReload-7/INFO]: Found unifont_jp_patch-16.0.01.hex, loading
+[20:33:39] [Worker-ResourceReload-2/INFO]: Found unifont_all_no_pua-16.0.01.hex, loading
+[20:33:39] [Render thread/INFO]: [FANCYMENU] Initializing screen customization engine! Addons should NOT REGISTER TO REGISTRIES anymore now!
+[20:33:39] [Worker-ResourceReload-6/WARN]: Method overwrite conflict for getCullingBox in sodium-common.mixins.json:core.render.world.EntityRendererAccessor from mod sodium, previously written by dev.tr7zw.entityculling.mixin.EntityRendererMixin. Skipping method.
+[20:33:39] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_trialAvailable_FancyMenu()Z should be static as its target is
+[20:33:39] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_hasUnreadNews_FancyMenu()Z should be static as its target is
+[20:33:39] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_hasUnseenNotifications()Z should be static as its target is
+[20:33:39] [Worker-ResourceReload-3/WARN]: Missing block model: 'minecraft:builtin/entity'
+[20:33:39] [Render thread/INFO]: Creating new TamagotchiEasterEgg with screen size: 0x0
+[20:33:39] [Render thread/INFO]: Initialized 2 GUI buttons
+[20:33:39] [Render thread/INFO]: Delaying buddy state loading until screen size is properly set
+[20:33:39] [Render thread/INFO]: [FANCYMENU] Starting late client initialization phase..
+[20:33:39] [Render thread/INFO]: [KONKRETE] Client-side modules initialized and ready to use!
+[20:33:39] [Render thread/INFO]: Cached all modded block culling states
+[20:33:40] [Render thread/INFO]: [AlinaLib] Client started. MC Version: fabric-loader-0.16.13-1.21.4
+[20:33:40] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: generic_dirt_message_screen
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing textures in model minecraft:hopper#enabled=true,facing=south:
     minecraft:textures/atlas/blocks.png:minecraft:break/hopper
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing textures in model minecraft:hopper#enabled=true,facing=west:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing textures in model minecraft:hopper#enabled=true,facing=west:
     minecraft:textures/atlas/blocks.png:minecraft:break/hopper
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing textures in model minecraft:hopper#enabled=true,facing=down:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing textures in model minecraft:hopper#enabled=true,facing=down:
     minecraft:textures/atlas/blocks.png:minecraft:break/hopper
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing textures in model minecraft:hopper#enabled=false,facing=north:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing textures in model minecraft:hopper#enabled=false,facing=north:
     minecraft:textures/atlas/blocks.png:minecraft:break/hopper
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing textures in model minecraft:hopper#enabled=false,facing=east:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing textures in model minecraft:hopper#enabled=false,facing=east:
     minecraft:textures/atlas/blocks.png:minecraft:break/hopper
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=false,facing=west,waterlogged=true:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=false,facing=west,waterlogged=true:
     particle
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=false,facing=north,waterlogged=false:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=false,facing=north,waterlogged=false:
     particle
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=true,facing=east,waterlogged=false:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=true,facing=east,waterlogged=false:
     particle
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=true,facing=south,waterlogged=true:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=true,facing=south,waterlogged=true:
     particle
-[18:55:19] [Worker-ResourceReload-2/WARN]: Missing texture references in model minecraft:end_crystal#inventory:
+[20:33:40] [Worker-ResourceReload-6/WARN]: Missing texture references in model minecraft:end_crystal#inventory:
     particle
-[18:55:20] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (USB Audio Device)
-[18:55:20] [Render thread/INFO]: Sound engine started
-[18:55:20] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
-[18:55:20] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[18:55:20] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[18:55:20] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[18:55:21] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
-[18:55:21] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[18:55:21] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[18:55:21] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/gui.png-atlas
-[18:55:22] [Render thread/INFO]: [FANCYMENU] Reloading resources..
-[18:55:22] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
-[18:55:22] [Render thread/ERROR]: [FANCYMENU] Failed to read GIF image from file! File not found: C:\Users\Sayer\AppData\Roaming\ModrinthApp\profiles\YVL 2\config\fancymenu\assets\botton22.gif
-[18:55:22] [Render thread/ERROR]: [FANCYMENU] Failed to pre-load resource! Loading failed for: [source:local]C:/Users/Sayer/AppData/Roaming/ModrinthApp/profiles/YVL 2/config/fancymenu/assets/botton22.gif
-[18:55:22] [Render thread/INFO]: Forcing leaf culling as requested by resourcepack
-[18:55:22] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
-[18:55:22] [Render thread/INFO]: [ETF]: reloading ETF data.
-[18:55:22] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[18:55:22] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: title_screen
-[18:55:22] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[18:55:23] [Thread-9/ERROR]: [FANCYMENU] Failed to read WAV header of WavAudio: C:\Users\Sayer\AppData\Roaming\ModrinthApp\profiles\YVL 2\config\fancymenu\assets\clap.wav
+[20:33:40] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (USB Audio Device)
+[20:33:40] [Render thread/INFO]: Sound engine started
+[20:33:40] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[20:33:40] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:33:40] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20:33:41] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[20:33:42] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[20:33:42] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:33:42] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:33:42] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/gui.png-atlas
+[20:33:42] [Render thread/INFO]: [FANCYMENU] Reloading resources..
+[20:33:42] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
+[20:33:42] [Render thread/ERROR]: [FANCYMENU] Failed to read GIF image from file! File not found: C:\Users\Sayer\AppData\Roaming\.minecraft\versions\fabric-loader-0.16.13-1.21.4\config\fancymenu\assets\botton22.gif
+[20:33:42] [Render thread/ERROR]: [FANCYMENU] Failed to pre-load resource! Loading failed for: [source:local]C:/Users/Sayer/AppData/Roaming/.minecraft/versions/fabric-loader-0.16.13-1.21.4/config/fancymenu/assets/botton22.gif
+[20:33:42] [Render thread/INFO]: Forcing leaf culling as requested by resourcepack
+[20:33:42] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
+[20:33:42] [Render thread/INFO]: [ETF]: reloading ETF data.
+[20:33:42] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[20:33:42] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: title_screen
+[20:33:42] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[20:33:43] [Thread-9/ERROR]: [FANCYMENU] Failed to read WAV header of WavAudio: C:\Users\Sayer\AppData\Roaming\.minecraft\versions\fabric-loader-0.16.13-1.21.4\config\fancymenu\assets\clap.wav
 java.io.IOException: Invalid fmt header: JUNK
 	at knot/de.keksuccino.fancymenu.util.resource.resources.audio.wav.WavHeader.read(WavHeader.java:49) ~[fancymenu_fabric_3.5.0_MC_1.21.4.jar:?]
 	at knot/de.keksuccino.fancymenu.util.resource.resources.audio.wav.WavAudio.lambda$of$1(WavAudio.java:256) ~[fancymenu_fabric_3.5.0_MC_1.21.4.jar:?]
-	at java.base/java.lang.Thread.run(Unknown Source) [?:?]
-[18:55:23] [Thread-9/WARN]: [FANCYMENU] Invalid WAV header duration calculated for: C:\Users\Sayer\AppData\Roaming\ModrinthApp\profiles\YVL 2\config\fancymenu\assets\clap.wav
-[18:55:23] [Thread-9/INFO]: [STDERR]: de.keksuccino.melody.resources.audio.openal.ALException: Failed to convert AudioFormat to OpenAL! Unsupported format: PCM_FLOAT 44100.0 Hz, 32 bit, stereo, 8 bytes/frame
-[18:55:23] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.melody.resources.audio.openal.ALUtils.getAudioFormatAsOpenAL(ALUtils.java:53)
-[18:55:23] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.melody.resources.audio.openal.ALAudioBuffer.prepare(ALAudioBuffer.java:32)
-[18:55:23] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.melody.resources.audio.openal.ALAudioBuffer.getSource(ALAudioBuffer.java:25)
-[18:55:23] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.melody.resources.audio.openal.ALAudioClip.setStaticBuffer(ALAudioClip.java:203)
-[18:55:23] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.fancymenu.util.resource.resources.audio.wav.WavAudio.lambda$of$1(WavAudio.java:281)
-[18:55:23] [Thread-9/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Unknown Source)
-[18:55:23] [Render thread/INFO]: [AlinaLib] Client full started. MC Version: 1.21.4
-[18:55:23] [Render thread/WARN]: Game took 22.771 seconds to start
-[18:55:28] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: join_multiplayer_screen
-[18:55:29] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: progress_screen
-[18:55:29] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: connect_screen
-[18:55:29] [Render thread/INFO]: Connecting to mc.astraly.net, 25565
-[18:55:31] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: receiving_level_screen
-[18:55:31] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
-[18:55:31] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[18:55:31] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[18:55:31] [Render thread/INFO]: Started 6 worker threads
-[18:55:31] [Render thread/INFO]: [CHAT] \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 
-[18:55:31] [Render thread/INFO]: [CHAT] Usted inicia sesión automáticamente ya que está utilizando una cuenta original.
-[18:55:31] [Render thread/WARN]: Ignoring player info update for unknown player 1c48103d-9bc2-46be-af21-964b42c22396 ([UPDATE_DISPLAY_NAME])
-[18:55:31] [Render thread/WARN]: Ignoring player info update for unknown player 82896102-9eb4-355d-9dad-638ec2182811 ([UPDATE_DISPLAY_NAME])
-[18:55:31] [Render thread/WARN]: Ignoring player info update for unknown player ddadce5d-1fbf-3eaf-b2bf-7608d54b5fb6 ([UPDATE_DISPLAY_NAME])
-[18:55:31] [Render thread/WARN]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01ff704591fd ([UPDATE_DISPLAY_NAME])
-[18:55:31] [Render thread/INFO]: [CHAT] ✔ xSayer
-[18:55:31] [Render thread/INFO]: Loaded 7 advancements
-[18:55:31] [Render thread/INFO]: [CHAT] 
-[18:55:31] [Render thread/INFO]: [CHAT]          ☁ ASTRALY NETWORK ☁
-[18:55:31] [Render thread/INFO]: [CHAT]     ¡Un gusto verte de nuevo xSayer!
-[18:55:31] [Render thread/INFO]: [CHAT] 
-[18:55:31] [Render thread/INFO]: [CHAT]     TIENDA: ᴛɪᴇɴᴅᴀ.ᴀꜱᴛʀᴀʟʏ.ɴᴇᴛ
-[18:55:31] [Render thread/INFO]: [CHAT]     DISCORD: ᴅɪꜱᴄᴏʀᴅ.ᴀꜱᴛʀᴀʟʏ.ɴᴇᴛ
-[18:55:31] [Render thread/INFO]: [CHAT] 
-[18:55:31] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
-[18:55:31] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 19 color keys for mod shulkerboxtooltip
-[18:55:31] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
-[18:55:31] [Render thread/INFO]: Stopping worker threads
-[18:55:31] [Render thread/INFO]: Started 6 worker threads
-[18:55:31] [Render thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled, using 4 threads
-[18:55:32] [Render thread/WARN]: Time from main menu to in-game was 2.8650465 seconds
-[18:55:32] [Render thread/WARN]: Total time to load game and open world was 25.636047 seconds
-[18:55:33] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: pause_screen
-[18:55:33] [Render thread/ERROR]: Missing program minecraft:core/rendertype_outline in override list. This is not a critical problem, but it could lead to weird rendering.
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:33:43] [Thread-9/WARN]: [FANCYMENU] Invalid WAV header duration calculated for: C:\Users\Sayer\AppData\Roaming\.minecraft\versions\fabric-loader-0.16.13-1.21.4\config\fancymenu\assets\clap.wav
+[20:33:43] [Thread-9/INFO]: [STDERR]: de.keksuccino.melody.resources.audio.openal.ALException: Failed to convert AudioFormat to OpenAL! Unsupported format: PCM_FLOAT 44100.0 Hz, 32 bit, stereo, 8 bytes/frame
+[20:33:43] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.melody.resources.audio.openal.ALUtils.getAudioFormatAsOpenAL(ALUtils.java:53)
+[20:33:43] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.melody.resources.audio.openal.ALAudioBuffer.prepare(ALAudioBuffer.java:32)
+[20:33:43] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.melody.resources.audio.openal.ALAudioBuffer.getSource(ALAudioBuffer.java:25)
+[20:33:43] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.melody.resources.audio.openal.ALAudioClip.setStaticBuffer(ALAudioClip.java:203)
+[20:33:43] [Thread-9/INFO]: [STDERR]: 	at knot//de.keksuccino.fancymenu.util.resource.resources.audio.wav.WavAudio.lambda$of$1(WavAudio.java:281)
+[20:33:43] [Thread-9/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:05] [Render thread/INFO]: [AlinaLib] Client full started. MC Version: fabric-loader-0.16.13-1.21.4
+[20:34:05] [Render thread/WARN]: Game took 42.183 seconds to start
+[20:34:15] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: join_multiplayer_screen
+[20:34:19] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: progress_screen
+[20:34:19] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: connect_screen
+[20:34:19] [Render thread/INFO]: Connecting to mc.astraly.net, 25565
+[20:34:20] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: receiving_level_screen
+[20:34:20] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[20:34:20] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[20:34:20] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[20:34:20] [Render thread/INFO]: Started 6 worker threads
+[20:34:20] [Render thread/INFO]: [CHAT] \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 
+[20:34:20] [Render thread/INFO]: [CHAT] Usted inicia sesión automáticamente ya que está utilizando una cuenta original.
+[20:34:20] [Render thread/INFO]: [CHAT] ✔ xSayer
+[20:34:20] [Render thread/WARN]: Ignoring player info update for unknown player 1c48103d-9bc2-46be-af21-964b42c22396 ([UPDATE_DISPLAY_NAME])
+[20:34:20] [Render thread/INFO]: Loaded 7 advancements
+[20:34:20] [Render thread/INFO]: [CHAT] 
+[20:34:20] [Render thread/INFO]: [CHAT]          ☁ ASTRALY NETWORK ☁
+[20:34:20] [Render thread/INFO]: [CHAT]     ¡Un gusto verte de nuevo xSayer!
+[20:34:20] [Render thread/INFO]: [CHAT] 
+[20:34:20] [Render thread/INFO]: [CHAT]     TIENDA: ᴛɪᴇɴᴅᴀ.ᴀꜱᴛʀᴀʟʏ.ɴᴇᴛ
+[20:34:20] [Render thread/INFO]: [CHAT]     DISCORD: ᴅɪꜱᴄᴏʀᴅ.ᴀꜱᴛʀᴀʟʏ.ɴᴇᴛ
+[20:34:20] [Render thread/INFO]: [CHAT] 
+[20:34:20] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[20:34:20] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 19 color keys for mod shulkerboxtooltip
+[20:34:20] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[20:34:20] [Render thread/INFO]: Stopping worker threads
+[20:34:20] [Render thread/INFO]: Started 6 worker threads
+[20:34:20] [Render thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled, using 4 threads
+[20:34:21] [Render thread/WARN]: Time from main menu to in-game was 2.164705 seconds
+[20:34:21] [Render thread/WARN]: Total time to load game and open world was 44.347702 seconds
+[20:34:21] [Render thread/ERROR]: Missing program minecraft:core/rendertype_outline in override list. This is not a critical problem, but it could lead to weird rendering.
 java.lang.Throwable: null
 	at knot/net.minecraft.class_10151.handler$cdc000$iris$redirectIrisProgram(class_10151.java:1728) ~[client-intermediary.jar:?]
 	at knot/net.minecraft.class_10151.method_62947(class_10151.java) ~[client-intermediary.jar:?]
@@ -393,106 +388,161 @@ java.lang.Throwable: null
 	at knot/net.minecraft.class_310.method_1523(class_310.java:1341) [client-intermediary.jar:?]
 	at knot/net.minecraft.class_310.method_1514(class_310.java:922) [client-intermediary.jar:?]
 	at knot/net.minecraft.client.main.Main.main(Main.java:267) [client-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.12.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.12.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.12.jar:?]
-[18:55:33] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: com.terraformersmc.modmenu.gui.ModsScreen
-[18:55:36] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: net.irisshaders.iris.gui.screen.ShaderPackScreen
-[18:55:36] [Render thread/INFO]: [CHAT] ✔ Evan_Fanz
-[18:55:36] [Render thread/WARN]: Ignoring player info update for unknown player b3c29074-f6cf-3397-a048-2bdc3ba25ad7 ([UPDATE_DISPLAY_NAME])
-[18:55:37] [Render thread/INFO]: [CHAT] ✔ Slzyr
-[18:55:37] [Render thread/WARN]: Ignoring player info update for unknown player 7b324c0b-eb4d-4d9e-af03-793a50ce8447 ([UPDATE_DISPLAY_NAME])
-[18:55:38] [Render thread/INFO]: [CHAT] ✔ fran_pvp
-[18:55:38] [Render thread/WARN]: Ignoring player info update for unknown player b00afbf3-fa3b-3d5e-8217-42cfbd391373 ([UPDATE_DISPLAY_NAME])
-[18:55:43] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[18:55:43] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
-[18:55:43] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[18:55:43] [Render thread/INFO]: Stopping worker threads
-[18:55:43] [Render thread/INFO]: Started 6 worker threads
-[18:55:44] [Render thread/INFO]: [CHAT] ✘ fran_pvp
-[18:55:45] [Render thread/INFO]: [CHAT] ✘ Slzyr
-[18:55:46] [Render thread/INFO]: [CHAT] ✘ BP_Megatag7075
-[18:55:56] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[18:55:56] [Render thread/INFO]: Profile: LOW (+0 options changed by user)
-[18:55:56] [Render thread/INFO]: Using shaderpack: miniature-shader-2.14.5.zip
-[18:55:56] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[18:55:56] [Render thread/INFO]: Stopping worker threads
-[18:55:56] [Render thread/INFO]: Started 6 worker threads
-[18:55:56] [Render thread/INFO]: Stopping worker threads
-[18:55:56] [Render thread/INFO]: Started 6 worker threads
-[18:55:58] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[18:55:58] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
-[18:55:58] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[18:55:58] [Render thread/INFO]: Stopping worker threads
-[18:55:58] [Render thread/INFO]: Started 6 worker threads
-[18:56:04] [Render thread/INFO]: [CHAT] ✘ Evan_Fanz
-[18:56:07] [Render thread/INFO]: [CHAT] ✔ Exzhezz
-[18:56:07] [Render thread/WARN]: Ignoring player info update for unknown player a4cad773-a6f4-3bbe-9496-aef72c8fba2a ([UPDATE_DISPLAY_NAME])
-[18:56:11] [Render thread/INFO]: [CHAT] Exzhezz ⋙ lag
-[18:56:11] [Render thread/INFO]: [CHAT] ✔ joni2242
-[18:56:12] [Render thread/WARN]: Ignoring player info update for unknown player c497782d-1c61-36da-93c8-61ab7c5cfbb8 ([UPDATE_DISPLAY_NAME])
-[18:56:12] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[18:56:12] [Render thread/INFO]: Profile: LOW (+0 options changed by user)
-[18:56:12] [Render thread/INFO]: Using shaderpack: miniature-shader-2.14.5.zip
-[18:56:12] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[18:56:12] [Render thread/INFO]: Stopping worker threads
-[18:56:12] [Render thread/INFO]: Started 6 worker threads
-[18:56:12] [Render thread/INFO]: Stopping worker threads
-[18:56:12] [Render thread/INFO]: Started 6 worker threads
-[18:56:16] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[18:56:16] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
-[18:56:16] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[18:56:16] [Render thread/INFO]: Stopping worker threads
-[18:56:16] [Render thread/INFO]: Started 6 worker threads
-[18:56:18] [Render thread/INFO]: [CHAT] 
-[18:56:18] [Render thread/INFO]: [CHAT]                      IMPORTANTE
-[18:56:18] [Render thread/INFO]: [CHAT] 
-[18:56:18] [Render thread/INFO]: [CHAT]  ¡Conseguí los mejores beneficios en la tienda!
-[18:56:18] [Render thread/INFO]: [CHAT]                   tienda.astraly.net
-[18:56:18] [Render thread/INFO]: [CHAT] 
-[18:56:20] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: net.minecraft.class_8671
-[18:56:20] [Render thread/INFO]: Stopping worker threads
-[18:56:20] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
-[18:56:20] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[18:56:20] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[18:56:20] [Render thread/INFO]: Started 6 worker threads
-[18:56:20] [Render thread/INFO]: [CHAT] CLAN » El miembro xSayer se ha conectado
-[18:56:20] [Render thread/WARN]: Ignoring player info update for unknown player 1c48103d-9bc2-46be-af21-964b42c22396 ([UPDATE_DISPLAY_NAME])
-[18:56:20] [Render thread/WARN]: Ignoring player info update for unknown player bc300fe2-622e-35eb-ba8f-1d0d08309f21 ([UPDATE_DISPLAY_NAME])
-[18:56:20] [Render thread/WARN]: Ignoring player info update for unknown player dd8cc277-e036-312f-aec3-27e72bc3668d ([UPDATE_DISPLAY_NAME])
-[18:56:20] [Render thread/WARN]: Ignoring player info update for unknown player 1450da3c-387e-4de8-a452-80eed5ed6d21 ([UPDATE_DISPLAY_NAME])
-[18:56:20] [Render thread/WARN]: Ignoring player info update for unknown player c786c743-44ad-37ae-8eb1-776349ab1eb4 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player b3c29074-f6cf-3397-a048-2bdc3ba25ad7 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player c746aeea-fd36-3684-a0ed-6e1c0ad8c427 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player b200cda7-6b4a-3140-b522-8c5580ad5667 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player 8dfc0f0e-1641-4bab-8101-fd41133117f8 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player a0007dd4-51dc-3c90-85a9-4eb77e418bd5 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player 2fd48093-1eb8-3db5-a062-54e940b9686b ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player 6330a79e-dd57-39d2-ac6a-f52a78b6bdc3 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player dee3af3e-5a56-3ae5-a3f0-3a556d7eec94 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player 32ab26a7-099a-3322-9072-cfbb647ef1a0 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player 23d6ff7a-388b-4059-9f94-145d4a0a2516 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/WARN]: Ignoring player info update for unknown player 75413c4d-52ea-4267-b8ee-2d6bce1a4832 ([UPDATE_DISPLAY_NAME])
-[18:56:21] [Render thread/INFO]: Loaded 213 advancements
-[18:56:22] [Render thread/INFO]: [CHAT] CuysGang2 | LEGENDARIO Resuelve ⋙ voy a jugar roblox
-[18:56:31] [Render thread/INFO]: [CHAT] ☠ HMCGCTW10 asesino a HDFBZFZRD usando ☄ ＭＡＲＴＩＬＬＯ ＲＯＭＰＥＮＵＥＣＥＳ ☄
-[18:56:34] [Render thread/INFO]: [CHAT] CuysGang2 | LEGENDARIO Resuelve ⋙ con kiddo
-[18:56:34] [Render thread/INFO]: [CHAT] CuysGang | TITAN tito_doble_p ⋙ por un ves que me mataste ¿?
-[18:56:34] [Render thread/INFO]: [CHAT] ✗ | LEGENDARIO Slzyr ⋙ buen lag
-[18:56:34] [Render thread/INFO]: Loaded 214 advancements
-[18:56:34] [Render thread/INFO]: Loaded 217 advancements
-[18:56:34] [Render thread/INFO]: [CHAT] ✗ | BESTIA HMCGCTW10 ⋙ Slzyr
-[18:56:34] [Render thread/INFO]: [CHAT] CuysGang2 | LEGENDARIO Resuelve ⋙ ahora vuelvo
-[18:56:34] [Render thread/INFO]: [CHAT] ✗ | BESTIA HMCGCTW10 ⋙ amorr
-[18:56:34] [Render thread/INFO]: [CHAT] CuysGang2 | LEGENDARIO Resuelve ⋙ en 40 mins
-[18:56:36] [Render thread/INFO]: [CHAT] ✗ | BESTIA HMCGCTW10 ⋙ RenzoRL
-[18:56:38] [Render thread/INFO]: [CHAT] CNdF | DIOS Ferderpoping2 ⋙ quien 1v1 rtp
-[18:56:39] [Render thread/INFO]: [CHAT] 
-[18:56:40] [Render thread/INFO]: [CHAT] CLAN » El miembro rauwexdmc se ha conectado
-[18:56:40] [Render thread/WARN]: Ignoring player info update for unknown player 7a1499e1-0834-4221-8520-e734286b8620 ([UPDATE_DISPLAY_NAME])
-[18:56:40] [Render thread/INFO]: [CHAT] ✗ | BESTIA HMCGCTW10 ⋙ sl
-[18:56:41] [Render thread/INFO]: Stopping worker threads
-[18:56:42] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
-[18:56:42] [Render thread/INFO]: Stopping!
-[18:56:42] [Render thread/INFO]: [AlinaLib] This world goes round and round like a carousel in a circus.
-[18:56:42] [Render thread/INFO]: [AlinaLib] Maybe the world is a circus?)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.13.jar:?]
+[20:34:28] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: net.minecraft.class_8671
+[20:34:28] [Render thread/INFO]: Stopping worker threads
+[20:34:28] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[20:34:28] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[20:34:28] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[20:34:28] [Render thread/INFO]: Started 6 worker threads
+[20:34:28] [Render thread/INFO]: [CHAT] CLAN » El miembro xSayer se ha conectado
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 1c48103d-9bc2-46be-af21-964b42c22396 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 1843f5c9-d02f-30cd-963d-bb6553ce377a ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 2af40f26-fe27-44e4-bd93-0cf2192808de ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 7bfc167d-a57e-4874-909f-f66d16dfd3ae ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player dd8cc277-e036-312f-aec3-27e72bc3668d ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 1450da3c-387e-4de8-a452-80eed5ed6d21 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 5657355a-9c14-30b4-a175-33d471518a4d ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 0a072b6b-1d95-4633-8e88-ef32f0e70c0d ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player ab8116bd-2b5d-4ae9-897b-2623aaec3aa1 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player f4604319-afdc-3e1a-a09a-3ecaee8885f9 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player dee3af3e-5a56-3ae5-a3f0-3a556d7eec94 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01fd4a113941 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 90b4c8c9-7b85-3da6-8f8b-112396648bb4 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 5722a490-13c4-321c-970e-6834a5a61cd0 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 43df47c5-d4b5-3c8b-9790-1eecb6eb3a1e ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 36ca6c5d-322e-3a70-8a8d-9c980eb627c4 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 7a1499e1-0834-4221-8520-e734286b8620 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 7299e7db-24f9-42b7-974e-ca41561de5de ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01ff3b434675 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 28ecb260-96f0-3e05-ba4f-7df3742825ac ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 4e2e9a61-31b8-394d-98fc-609411607b71 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player bd71f6d0-b418-45a3-b235-1db6e9e964b5 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player b6cdc1a1-8056-386d-9885-aa8e2abf1eab ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player ffc3e769-c37e-424c-bba5-7929eebf33fe ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player d70d8db9-9bed-3a73-98fe-7c05818c998b ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player d5e31a26-b189-32ab-8307-3fc1ca73c008 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 0f3ec1b1-e901-4448-8b2f-1164734a0926 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 8179b471-5747-3dec-a5bf-6b32671d6bd1 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player bc056fa9-8cf6-4a77-b4c9-847ce6ae7753 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01fb59a09bb5 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 4c4e01ff-bc3f-3657-98e7-3d6eae3cce81 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 1546f77f-7dda-3fe2-86c5-7b3ce77fe3ea ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player b8760d61-a1a0-39c2-afa7-8ec122011a64 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player cf770a49-c922-3455-a439-b64f78020044 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/WARN]: Ignoring player info update for unknown player 2754fe80-c4ad-3b53-b8f9-4d3754eee8f0 ([UPDATE_DISPLAY_NAME])
+[20:34:28] [Render thread/INFO]: Stopping worker threads
+[20:34:28] [Render thread/INFO]: Started 6 worker threads
+[20:34:28] [Render thread/INFO]: Loaded 220 advancements
+[20:34:31] [Render thread/INFO]: [CHAT] CuysGang | BESTIA HMCGCTW10 ⋙ HqkaiReptile_
+[20:34:32] [Render thread/INFO]: [CHAT] CuysGang | BESTIA HMCGCTW10 ⋙ bro
+[20:34:34] [Render thread/INFO]: [CHAT] 
+[20:34:44] [Render thread/INFO]: [CHAT] CuysGang2 | HEROE HqkaiReptile_ ⋙ ven call drip bb
+[20:34:48] [Render thread/INFO]: [CHAT] CuysGang | BESTIA HMCGCTW10 ⋙ pa q
+[20:34:49] [Render thread/INFO]: [CHAT] GominolaGang | XXIV  DARKING ⋙ Compro rango bestia
+[20:34:52] [Render thread/INFO]: [CHAT] CuysGang2 | HEROE HqkaiReptile_ ⋙ xSayer
+[20:34:52] [Render thread/INFO]: [CHAT] TESORO » Un evento de tesoro en 5m, 0s.
+[20:34:54] [Render thread/INFO]: [CHAT] 
+[20:34:59] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: pause_screen
+[20:35:01] [Render thread/WARN]: Ignoring player info update for unknown player 9cd67a92-e51d-443f-abe7-b3de7b66f4c5 ([UPDATE_DISPLAY_NAME])
+[20:35:02] [Render thread/INFO]: [CHAT] CuysGang2 | HEROE HqkaiReptile_ ⋙ xSayer
+[20:35:04] [Render thread/INFO]: [CHAT] DUELOS » AnyGOD ha ganado el duelo 1 vs 1 contra Sabito27_ con el kit Alien.
+[20:35:06] [Render thread/INFO]: [CHAT] PUROTALENTOZy | LEGENDARIO AnyGOD ⋙ e5
+[20:35:07] [Render thread/INFO]: [CHAT] GominolaGang | XXIV  DARKING ⋙ Compro rango bestia
+[20:35:10] [Render thread/INFO]: [CHAT] Prestige | BESTIA Sabito27_ ⋙ bro sos horrendo
+[20:35:11] [Render thread/INFO]: [CHAT] CuysGang | BESTIA HMCGCTW10 ⋙ q das DARKING
+[20:35:14] [Render thread/INFO]: [CHAT] 
+[20:35:14] [Render thread/INFO]: [CHAT] CuysGang | BESTIA HMCGCTW10 ⋙ Sabito27_
+[20:35:14] [Render thread/INFO]: [CHAT] PUROTALENTOZy | LEGENDARIO AnyGOD ⋙ Xd
+[20:35:14] [Render thread/INFO]: [CHAT] MSG » HqkaiReptile_ eres de artic
+[20:35:16] [Render thread/INFO]: [CHAT] MSG » HqkaiReptile_ eres de artic
+[20:35:17] [Render thread/INFO]: [CHAT] MSG » HqkaiReptile_ eres de artic
+[20:35:19] [Render thread/INFO]: [CHAT] Prestige | BESTIA Sabito27_ ⋙ jugamos duel item full tienda?
+[20:35:24] [Render thread/INFO]: [CHAT] GominolaGang | XXIV  DARKING ⋙ HMCGCTW10 300m
+[20:35:27] [Render thread/INFO]: [CHAT] PUROTALENTOZy | LEGENDARIO AnyGOD ⋙ Sabito27_
+[20:35:32] [Render thread/INFO]: [CHAT] PUROTALENTOZy | LEGENDARIO AnyGOD ⋙ ok
+[20:35:33] [Render thread/INFO]: [CHAT] CuysGang2 | HEROE HqkaiReptile_ ⋙ HMCGCTW10 mis 53m oe
+[20:35:34] [Render thread/INFO]: [CHAT] 
+[20:35:39] [Render thread/INFO]: [CHAT] Prestige | BESTIA Sabito27_ ⋙ espera q llegue roman
+[20:35:40] [Render thread/WARN]: Ignoring player info update for unknown player b426a0f0-4f5b-3f1e-ac2e-28727654efa3 ([UPDATE_DISPLAY_NAME])
+[20:35:41] [Render thread/INFO]: [CHAT] Prestige | BESTIA Sabito27_ ⋙ oooo
+[20:35:44] [Render thread/INFO]: [CHAT] ✗ | TITAN PapenFriten_YT ⋙ donde se consigue la espada slayer?
+[20:35:44] [Render thread/INFO]: [CHAT] PUROTALENTOZy | LEGENDARIO AnyGOD ⋙ ya bro
+[20:35:44] [Render thread/INFO]: [CHAT] Prestige | BESTIA Sabito27_ ⋙ buen duel item
+[20:35:46] [Render thread/WARN]: Ignoring player info update for unknown player b410f549-0694-37b0-9505-ff4dff7af4a0 ([UPDATE_DISPLAY_NAME])
+[20:35:48] [Render thread/INFO]: [CHAT] PUROTALENTOZy | LEGENDARIO AnyGOD ⋙ XD
+[20:35:49] [Render thread/INFO]: [CHAT] GominolaGang | BESTIA HDFBZFZRD ⋙ compro skull legend v1
+[20:35:50] [Render thread/INFO]: [CHAT] GominolaGang | XXIV  DARKING ⋙ Compro rango bestia
+[20:35:54] [Render thread/INFO]: [CHAT] 
+[20:35:58] [Render thread/INFO]: [CHAT] PUROTALENTOZy | LEGENDARIO AnyGOD ⋙ acepta
+[20:36:00] [Render thread/INFO]: [CHAT] LFF | BESTIA oxma7463 ⋙ DARKING q das ?
+[20:36:01] [Render thread/INFO]: [CHAT] PUROTALENTOZy | LEGENDARIO AnyGOD ⋙ para ver como juegas
+[20:36:02] [Render thread/INFO]: Stopping worker threads
+[20:36:10] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: select_world_screen
+[20:36:10] [Render thread/ERROR]: Invalid icon for world Sayers Preview
+java.lang.IllegalArgumentException: Icon must be 64x64, but was 500x500
+	at knot/net.minecraft.class_8573.method_52199(class_8573.java:41) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528$class_4272.method_52205(class_528.java:547) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528$class_4272.<init>(class_528.java:284) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528.method_43454(class_528.java:199) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528.method_44678(class_528.java:160) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528.method_48579(class_528.java:151) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_339.method_25394(class_339.java:66) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_437.method_25394(class_437.java:127) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_526.method_25394(class_526.java:96) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_437.method_47413(class_437.java:116) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.mixinextras$bridge$method_47413$87(class_757.java) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.wrapOperation$blg000$fabric-screen-api-v1$onRenderScreen(class_757.java:2414) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.mixinextras$bridge$wrapOperation$blg000$fabric-screen-api-v1$onRenderScreen$88(class_757.java) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.wrapOperation$bpa000$fancymenu$wrapRenderScreenFancyMenu(class_757.java:3400) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.mixinextras$bridge$wrapOperation$bpa000$fancymenu$wrapRenderScreenFancyMenu$90(class_757.java) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.wrapOperation$cih000$konkrete$wrapRenderScreen_Konkrete(class_757.java:6396) [client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.method_3192(class_757.java:551) [client-intermediary.jar:?]
+	at knot/net.minecraft.class_310.method_1523(class_310.java:1341) [client-intermediary.jar:?]
+	at knot/net.minecraft.class_310.method_1514(class_310.java:922) [client-intermediary.jar:?]
+	at knot/net.minecraft.client.main.Main.main(Main.java:267) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.13.jar:?]
+[20:36:15] [Render thread/ERROR]: Invalid icon for world Sayers Preview
+java.lang.IllegalArgumentException: Icon must be 64x64, but was 500x500
+	at knot/net.minecraft.class_8573.method_52199(class_8573.java:41) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528$class_4272.method_52205(class_528.java:547) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528$class_4272.<init>(class_528.java:284) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528.method_43454(class_528.java:199) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528.method_44678(class_528.java:160) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_528.method_48579(class_528.java:151) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_339.method_25394(class_339.java:66) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_437.method_25394(class_437.java:127) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_526.method_25394(class_526.java:96) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_437.method_47413(class_437.java:116) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.mixinextras$bridge$method_47413$87(class_757.java) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.wrapOperation$blg000$fabric-screen-api-v1$onRenderScreen(class_757.java:2414) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.mixinextras$bridge$wrapOperation$blg000$fabric-screen-api-v1$onRenderScreen$88(class_757.java) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.wrapOperation$bpa000$fancymenu$wrapRenderScreenFancyMenu(class_757.java:3400) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.mixinextras$bridge$wrapOperation$bpa000$fancymenu$wrapRenderScreenFancyMenu$90(class_757.java) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.wrapOperation$cih000$konkrete$wrapRenderScreen_Konkrete(class_757.java:6396) [client-intermediary.jar:?]
+	at knot/net.minecraft.class_757.method_3192(class_757.java:551) [client-intermediary.jar:?]
+	at knot/net.minecraft.class_310.method_1523(class_310.java:1341) [client-intermediary.jar:?]
+	at knot/net.minecraft.class_310.method_1514(class_310.java:922) [client-intermediary.jar:?]
+	at knot/net.minecraft.client.main.Main.main(Main.java:267) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.13.jar:?]
+[20:36:16] [Render thread/INFO]: Connecting to mcpvp.club, 25565
+[20:36:17] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[20:36:17] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[20:36:17] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[20:36:17] [Render thread/INFO]: Started 6 worker threads
+[20:36:17] [Render thread/INFO]: Stopping worker threads
+[20:36:17] [Render thread/INFO]: Started 6 worker threads
+[20:36:17] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[20:36:18] [Render thread/WARN]: Time from main menu to in-game was 1.4431255 seconds
+[20:36:18] [Render thread/WARN]: Total time to load game and open world was 43.626125 seconds
+[20:36:19] [Render thread/INFO]: Stopping worker threads
+[20:36:20] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[20:36:20] [Render thread/INFO]: Stopping!
+[20:36:20] [Render thread/INFO]: [AlinaLib] This world goes round and round like a carousel in a circus.
+[20:36:20] [Render thread/INFO]: [AlinaLib] Maybe the world is a circus?)
