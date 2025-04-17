@@ -18,3 +18,11 @@
 /hub
 /ps home
 /tpa friju
+/kit i
+/spawn
+/rtp
+/login casanova11
+/login negros123
+/premium
+/ping
+/kit
