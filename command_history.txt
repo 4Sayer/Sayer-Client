@@ -43,3 +43,5 @@
 /day
 /time set day
 /clear
+/spawn
+/hub
