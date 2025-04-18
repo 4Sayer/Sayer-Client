@@ -34,3 +34,12 @@
 /gamemode creative
 /give xSayer bow 1
 /spawn
+/typ
+/rtp
+/spawn
+/fill -830 2 1026
+/fill -830 2 1026 -799 2 1056 water
+/fill -830 2 1026 -800 3 1056 water
+/day
+/time set day
+/clear

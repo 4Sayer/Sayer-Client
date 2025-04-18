@@ -30,3 +30,9 @@ net.minecraft.class_424 {
 net.minecraft.class_8219 {
 }
 
+io.github.kosmx.emotes.arch.screen.ingame.FastMenuScreen {
+}
+
+io.github.kosmx.emotes.arch.screen.ingame.FullMenuScreen {
+}
+
