@@ -58,7 +58,7 @@
 
 ## 📥 Descarga e Instalacin
 
-1. **Descarga el instalador**: [📦 Sayer-Client.exe](https://github.com/4Sayer/Sayer-Client/releaseslatest
+1. **Descarga el instalador**: (https://github.com/4Sayer/Sayer-Client/releaseslatest
 
 2. **Prepara tu enorno**
    - Elimina todos los mods existentes en `.minecraf/mods`
