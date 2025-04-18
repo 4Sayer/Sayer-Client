@@ -1,49 +1,66 @@
 # 🌌 Sayer Client 1.2
 
-Siente Minecraft como nunca antes.
+Juega Minecraft como nunca antes.  
+Diseñado para verse mejor, sentirse más fluido y rendir como una bestia.
 
 ---
 
 ### 🚀 ¿Qué incluye?
 
-- ✅ Instalador automático  
-- ✅ Interfaz minimalista  
-- ✅ Configuración optimizada desde el inicio  
-- ✅ Totalmente compatible con Fabric 1.21.5  
-- ✅ Pantallas de carga premium  
-- ✅ Animaciones fluidas  
-- ✅ Rendimiento extremo  
-- ✅ Carga de chunks extendida  
-- ✅ Zoom avanzado  
-- ✅ Depuración visual avanzada  
-- ✅ Luces dinámicas en movimiento  
-- ✅ Emotes integrados y online  
-- ✅ HUD de armadura y saturación  
-- ✅ Chat con avatares y animaciones  
-- ✅ Opciones avanzadas con menús intuitivos  
-- ✅ Skins, capas y expresiones visibles en tiempo real  
-- ✅ Experiencia pulida y sin interrupciones  
+- ✅ Instalador automático (olvídate de mover carpetas)  
+- ✅ Interfaz limpia, solo lo esencial  
+- ✅ Configuración predefinida para jugar al instante  
+- ✅ Compatibilidad total con **Fabric 1.21.5**
 
 ---
 
-### 📦 Descarga
+### ⚡ Optimización extrema
 
-> [🔗 Descargar Sayer-Client.exe](https://github.com/4Sayer/Sayer-Client/releases/latest)
+- 🔧 Carga más rápida, menos consumo, más FPS  
+- 🎮 Aumenta el rendimiento incluso en PCs con bajos recursos  
+- 🧠 Gestión inteligente de memoria, sin lag, sin stutters  
+- 🌀 Shaders totalmente optimizados (sí, puedes hacer PvP con ellos sin delay)
+
+---
+
+### 🎨 Experiencia visual premium
+
+- ✨ Minecraft se ve increíble, sin sacrificar FPS  
+- 🗡️ Animaciones nuevas al usar herramientas 
+- 🧟 Mobs y jugadores con movimientos más reales y fluidos  
+- 🎥 Transiciones suaves, HUD dinámico, zoom avanzado y opciones visuales integradas
+
+---
+
+### 🧩 Experiencia completa
+
+- 🔊 Sonidos envolventes, emotes online, capas, skins y expresiones  
+- 💬 Chat con avatares animados  
+- 🛡️ HUD con barra de armadura, saturación y más  
+- 🖱️ Menús intuitivos y fáciles de usar  
+- 🌍 Carga de chunks extendida para mundos más grandes
+
+---
+
+### 📥 Descarga
+
+> [📦 Descargar `Sayer-Client.exe`](https://github.com/4Sayer/Sayer-Client/releases/latest)
 
 ---
 
 ### ⚠️ Antes de instalar:
 
-1. Elimina tus mods actuales de `.minecraft/mods`  
+1. Elimina todos tus mods de `.minecraft/mods`  
 2. Asegúrate de tener **Java instalado**
 
 ---
 
-### ❓ ¿Problemas?
+### 💬 ¿Problemas?
 
-Envíame DM en Discord → `xSayer`
+DM directo en Discord → `xSayer`
 
 ---
 
-> Sayer Client. Simple. Potente. Listo para jugar.  
-> — *xSayer*
+> **Yo, xSayer, lo recomiendo totalmente.**  
+> Lo uso a diario, juego mejor, más bonito, y sin perder FPS.  
+> Sayer Client. El futuro del Minecraft optimizado.
