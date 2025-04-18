@@ -62,5 +62,5 @@ DM directo en Discord → `xSayer`
 ---
 
 > **Yo, xSayer, lo recomiendo totalmente.**  
-> Lo uso a diario, juego mejor, más bonito, y sin perder FPS.  
+> Lo uso a diario, juego mejor, se ve mejor, y sin perder FPS.  
 > Sayer Client. El futuro del Minecraft optimizado.
