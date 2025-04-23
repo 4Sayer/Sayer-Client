@@ -44,7 +44,7 @@ Diseñado para verse mejor, sentirse más fluido y rendir como una bestia.
 
 ### 📥 Descarga
 
-> [📦 Descargar `Sayer-Client.exe`](https://github.com/4Sayer/Sayer-Client/releases/latest)
+> [📦 Descargar `Sayer-Client.exe`](https://github.com/4Sayer/Sayer-Client/releases/tag/Updates)
 
 ---
 
