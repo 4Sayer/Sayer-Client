@@ -51,7 +51,7 @@ damageTiltStrength:0.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:false
-resourcePacks:["vanilla","fabric","file/FreshAnimations_v1.9.3.zip","file/SodiumTranslations.zip","cullleaves:smartleaves","file/! §5§lPurple+_3D_Crystal.zip"]
+resourcePacks:["vanilla","fabric","file/FreshAnimations_v1.9.3.zip","file/SodiumTranslations.zip","cullleaves:smartleaves","file/DetailedAnimationsReworked - V1.15 PATCH.zip","file/! §5§lPurple+_3D_Crystal.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:es_mx

@@ -1,6 +1,6 @@
 {
   "gamma": {
-    "value": 0.8083333333333401,
+    "value": 0.5,
     "defaultGamma": 100,
     "toggledGamma": 1500,
     "updateToggle": false,
